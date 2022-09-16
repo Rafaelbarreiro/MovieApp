@@ -1,0 +1,49 @@
+.navbar {
+    height: 150px;
+    width: 90%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-size: contain;
+    background-image: linear-gradient(to left,rgb(188, 29, 29),rgb(111, 0, 255))
+}
+
+.navbar nav {
+    height: 100%;
+    background-image: linear-gradient(to left,rgb(188, 29, 29),rgb(111, 0, 255))
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    height: 100%;
+   
+}
+
+.list-item {
+    margin: 0;
+    display: flex;
+    width: auto;
+    font-size: 35px;
+    align-items: center;
+}
+
+.list-item a {
+    color: white;
+    height: 100%;
+    padding: 16px 10px;
+    border-bottom: 4px solid transparent;
+}
+
+.list-item a:hover,
+.list-item a.active {
+    
+    color: white;
+}
